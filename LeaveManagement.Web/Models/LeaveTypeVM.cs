@@ -8,7 +8,9 @@ namespace LeaveManagement.Web.Models
     {
         public int Id { get; set; }
 
+        [Display(Name ="Date Created")]
         public DateTime DateCreated { get; set; }
+        [Display(Name = "Date Modified")]
         public DateTime DateModified { get; set; }
 
         [Required]
