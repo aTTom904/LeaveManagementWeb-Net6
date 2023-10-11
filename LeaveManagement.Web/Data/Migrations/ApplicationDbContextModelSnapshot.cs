@@ -126,9 +126,6 @@ namespace LeaveManagement.Web.Data.Migrations
                     b.Property<int>("LeaveTypeID")
                         .HasColumnType("int");
 
-                    b.Property<int>("LeaveTypeId")
-                        .HasColumnType("int");
-
                     b.Property<int>("NumberOfDays")
                         .HasColumnType("int");
 
